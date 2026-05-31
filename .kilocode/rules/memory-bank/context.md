@@ -14,6 +14,7 @@ The template is a clean Next.js 16 starter with TypeScript and Tailwind CSS 4. I
 - [x] ESLint configuration
 - [x] Memory bank documentation
 - [x] Recipe system for common features
+- [x] Checked root components for Firebase initialization; found none; black screen due to bg-neutral-900 class on main element
 
 ## Current Structure
 
@@ -85,3 +86,4 @@ export async function GET() {
 | Date | Changes |
 |------|---------|
 | Initial | Template created with base setup |
+| 2026-05-31 | Checked root components for Firebase initialization; found none; black screen due to bg-neutral-900 class on main element |
